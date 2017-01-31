@@ -1,0 +1,11 @@
+{
+	"name": "DeconstructNearbyLoot",
+	"version": "1.0.0",
+	"factorio_version": "0.14",
+	"title": "Deconstruct nearby loot",
+	"author": "_MadMaXoft(o)",
+	"contact": "",
+	"homepage": "https://github.com/madmaxoft/DeconstructNearbyLoot",
+	"description": "Automatically marks loot in logistic construction range of the player for deconstruction."
+	"license": "Public domain"
+}
