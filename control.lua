@@ -6,7 +6,7 @@ local function isTechnologyResearched(a_Player)
 	assert(a_Player)
 	assert(a_Player.force)
 
-	return a_Player.force.technologies["automated-construction"].researched
+	return a_Player.force.technologies["auto-deconstruct-loot-tech"].researched
 end
 
 
@@ -108,7 +108,7 @@ end
 --- When a research is completed by a force, update all its players' GUIs
 script.on_event(defines.events.on_research_finished,
 	function(a_Event)
-		if (a_Event.research.name == "automated-construction") then
+		if (a_Event.research.name == "auto-deconstruct-loot-tech") then
 			for _, player in ipairs(a_Event.research.force.players) do
 				updateGuiForPlayer(player)
 			end
